@@ -1,5 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+	background-color: #E8EDF3;
+
+}
+#gemtimecont {
+  width: 100vw;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-wrap: wrap;
+background-color: #F4F6F9;
+	border-radius: 32px;
+
+	
+}
 .gemkard {
   width: 264px;
   margin-top: 32px;
@@ -40,4 +58,15 @@
   border-radius: 12px;
   display: inline-block;
   margin-top: 0;
+}
+.gem-timeline-title {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+	height: auto;
+	padding: 16px 12px;
+	    background: white;
+}
+.gem-timeline-title > h2{
+	margin-bottom: 0px;
 }
