@@ -72,8 +72,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 999px;
-	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.40);
-
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.40);
 }
 .gembut img {
   transform: matrix(1, 0, 0, 1, 1.5, 0);
