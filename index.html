@@ -10,14 +10,14 @@
 <body>
 <div id="gemtimecont">
   <section class="gem-timeline-title">
-	  <h2>Digitale Identitäten</h2>
-	  </section>
+    <h2>Digitale Identitäten</h2>
+  </section>
   <button id="links" class="gembut" onclick="moveLinks()">
   <svg id="uuid-13333f22-8cf2-4a5b-86ab-322a5757eb83" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
     <g id="uuid-8463ad01-a0d4-4757-abbe-3b960b9781f4" data-name="Ebene 1">
       <g>
-        <circle cx="30" cy="30" r="30" style="fill: #b3c1d9;"/>
-        <path d="m35.1221,14.3122l-15.6884,15.6885,15.6884,15.6884" style="fill: none; stroke: #010e52; stroke-linecap: round; stroke-width: 5.625px;"/>
+        <circle cx="30" cy="30" r="30" style="fill: #010e52;"/>
+        <path d="m35.1221,14.3122l-15.6884,15.6885,15.6884,15.6884" style="fill: none; stroke: #00FF64; stroke-linecap: round; stroke-width: 5.625px;"/>
       </g>
     </g>
   </svg>
@@ -26,34 +26,33 @@
   <svg id="uuid-6b6f2cd1-9ae9-44aa-a8fd-bf07c725674a" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
     <g id="uuid-00b4db19-3177-41ac-9ce8-5e94a65c326a" data-name="Ebene 1">
       <g>
-        <circle cx="30" cy="30" r="30" style="fill: #b3c1d9;"/>
-        <path d="m24.8779,45.6878l15.6884-15.6885-15.6884-15.6884" style="fill: none; stroke: #010e52; stroke-linecap: round; stroke-width: 5.625px;"/>
+        <circle cx="30" cy="30" r="30" style="fill: #010e52;"/>
+        <path d="m24.8779,45.6878l15.6884-15.6885-15.6884-15.6884" style="fill: none; stroke: #00FF64; stroke-linecap: round; stroke-width: 5.625px;"/>
       </g>
     </g>
   </svg>
   </button>
-  <div style="background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);   width: 50px;
-  left: 0;
-  position: absolute;
-  height: 100%;
-  z-index: 1;
-}"></div>
-  <div style="background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);   width: 50px;
-  right: 0;
-  position: absolute;
-  height: 100%;
-  z-index: 1;
-}"></div>
-  <div style="position: relative; display: flex;" id="myDiv">
-<div class="gemkard">
-      <div class="gembild" style="width: 100%;">
-       <img src="img/illu/zahnrad.svg">
-      </div>
+  <div class="gem-timeline-gradient-r"></div>
+  <div class="gem-timeline-gradient-l"></div>
+  <div class="gem-timeline-card-cont" id="myDiv">
+    <div class="gemkard">
+      <div class="gembild"> <img src="img/illu/zahnrad.svg"> </div>
+      <div class="gem-timeline-line"></div>
       <div class="gemtext">
-        <h4>07.11.2022</h4>
-        <p>Prüfauftrag gematik</p>
+        <div class="gem-timeline-date">
+          <h4>14.12.2023</h4>
+        </div>
+        <p>Kick-Off zur Workshopreihe mit Gesellschaftern, gesetzlichen und privaten Krankenversicherungen, Fachgesellschaften und Berufsverbänden</p>
+      </div>
+    </div>
+	  <div class="gemkard">
+      <div class="gembild"> <img src="img/illu/zahnrad.svg"> </div>
+      <div class="gem-timeline-line"></div>
+      <div class="gemtext">
+        <div class="gem-timeline-date">
+          <h4>14.12.2023</h4>
+        </div>
+        <p>Kick-Off zur Workshopreihe mit Gesellschaftern, gesetzlichen und privaten Krankenversicherungen, Fachgesellschaften und Berufsverbänden</p>
       </div>
     </div>
     <div class="gemkard">
@@ -219,8 +218,10 @@ stroke-width: 9px;"/>
           </g>
         </svg>
       </div>
-      <div class="gemtext">
+      <div >
         <h4>14.12.2023</h4>
+      </div>
+      <div class="gemtext">
         <p>Kick-Off zur Workshopreihe
           mit Gesellschaftern,
           gesetzlichen und privaten

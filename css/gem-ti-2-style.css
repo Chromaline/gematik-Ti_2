@@ -1,8 +1,12 @@
 @charset "UTF-8";
-/* CSS Document */
+/* CSS Document */ :root {
+  --gem-green: #00FF64;
+  --gem-blue: #010e52;
+  --gem-turquoise: #4AFFFF;
+  --gem-b3-10: #F4F6F9;
+}
 body {
-	background-color: #E8EDF3;
-
+  background-color: #E8EDF3;
 }
 #gemtimecont {
   width: 100vw;
@@ -13,10 +17,13 @@ body {
   overflow: hidden;
   position: relative;
   flex-wrap: wrap;
-background-color: #F4F6F9;
-	border-radius: 32px;
-
-	
+  background-color: #F4F6F9;
+  border-radius: 32px;
+}
+.gem-timeline-card-cont {
+  left: 32px;
+  position: relative;
+  display: flex;
 }
 .gemkard {
   width: 264px;
@@ -24,8 +31,16 @@ background-color: #F4F6F9;
 }
 .gemtext {
   padding: 32px;
-  padding-top: 32px;
-  padding-top: 16px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+	    gap: 24px;
+}
+
+.gemtext > p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+	line-height: 1.4;
 }
 .gemkard svg {
   height: 188px;
@@ -33,12 +48,12 @@ background-color: #F4F6F9;
   margin-top: 16px;
 }
 .gembut {
-  z-index: 2;
+  z-index: 20;
   position: absolute;
   background-color: transparent;
   border: 0;
-  top: 193px;
   cursor: pointer;
+	height: 100%;
 }
 .gembut svg {
   height: 40px;
@@ -46,10 +61,51 @@ background-color: #F4F6F9;
 .btn {
   padding: 7px 7px;
 }
+.gem-timeline-gradient-r {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  width: 50px;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  z-index: 10;
+}
+.gem-timeline-gradient-l {
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);   width: 50px;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
 .gembild {
   justify-content: center;
   width: 100%;
   display: flex;
+  height: 160px;
+  align-items: center;
+}
+.gembild img {
+  height: 60%;
+}
+.gem-timeline-line {
+  background-color: var(--gem-blue);
+  height: 4px;
+  bottom: -52px;
+  position: relative;
+}
+.gem-timeline-date {
+  background-color: var(--gem-blue);
+  text-align: center;
+  padding: 6px 16px;
+  width: fit-content;
+  border-radius: 999px;
+  z-index: 2;
+}
+.gem-timeline-date > h4 {
+  color: var(--gem-green);
+  margin: 0px;
+	font-size: 18px;
 }
 .gemstb {
   padding: 10px 12px;
@@ -63,10 +119,10 @@ background-color: #F4F6F9;
   justify-content: center;
   display: flex;
   width: 100%;
-	height: auto;
-	padding: 16px 12px;
-	    background: white;
+  height: auto;
+  padding: 16px 12px;
+  background: white;
 }
-.gem-timeline-title > h2{
-	margin-bottom: 0px;
+.gem-timeline-title > h2 {
+  margin-bottom: 0px;
 }
