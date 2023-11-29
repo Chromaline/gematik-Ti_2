@@ -11,7 +11,7 @@ body {
   background-color: #E8EDF3;
   margin: 0px;
 }
-#gemtimecont {
+#gemtimecont1, #gemtimecont2, #gemtimecont3 {
   width: 90vw;
   max-width: 800px;
   margin-left: auto;
@@ -152,7 +152,7 @@ body {
 .gem-timeline-title > h2 {
   margin-bottom: 0px;
 }
-#myDiv {
+#gemTimeCardsCont1, #gemTimeCardsCont2, #gemTimeCardsCont3 {
   position: relative;
   transition: left .8s ease;
 }
