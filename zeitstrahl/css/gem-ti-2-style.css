@@ -45,10 +45,10 @@ body {
   display: flex;
   gap: 24px;
 }
-.gemtext > p {
+.gemtext > small {
   margin-block-start: 0;
   margin-block-end: 0;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 .gemcard svg {
   height: 188px;
