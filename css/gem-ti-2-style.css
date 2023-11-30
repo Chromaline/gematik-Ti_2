@@ -9,7 +9,12 @@
 }
 body {
   background-color: #E8EDF3;
-  margin: 0px;
+}
+#gemtimecontAll {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 0px;
 }
 #gemtimecont1, #gemtimecont2, #gemtimecont3 {
   width: 90vw;
