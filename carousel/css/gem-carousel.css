@@ -1,0 +1,580 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:root {
+--gemprim: #00ff65;
+--gemprimbl: #000E52;
+}
+
+.header, .header * {
+  box-sizing: border-box;
+}
+
+
+.gem-ti-img svg path {
+  stroke-width: 15px;
+}
+.gem-ti-footer {
+  background: #E8EDF3;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+	    margin-top: -6%;
+	
+}
+
+
+.gem-ti-h3 {
+	font-size: 3.75rem;
+	margin: 0;
+	hyphens: manual;
+	padding: 1rem;
+}
+
+.gem-ti-h4 {
+	font-size: 1.75rem;
+	padding: 0.5rem;
+}
+
+
+
+
+
+.gem-ti-line-cont {
+  border-width: 0rem 0rem 0rem 0.9375rem;
+  border-style: solid;
+  border-image: linear-gradient(
+    180.19deg,
+    rgba(0, 255, 100, 1) 0%,
+    rgba(0, 255, 100, 0) 100%
+  );
+  border-image-slice: 1;
+padding: 0rem 0rem 0rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  max-width: 56.25rem;
+  position: relative;
+margin-top: 2rem;
+}
+.gem-ti-h-3 {
+  color: #010e52;
+  text-align: left;
+  font: 700 3.75rem/4.0625rem "Euclid Circular B", sans-serif;
+  position: relative;
+  align-self: stretch;
+	hyphens: manual;
+}
+.gem-ti-p {
+    color: #010e52;
+    text-align: left;
+    font: var(--flie-text, 400 1rem/1.6875rem "Apercu Pro", sans-serif);
+    position: relative;
+	padding: 1rem;
+
+}
+
+.gem-ti-p h3 {
+margin-top: 2rem;
+}
+
+.gem-ti-p p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.gem-ti-p td {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+
+.gem-ti-section {
+	max-width: 900px;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+	margin-bottom: 4rem;
+	width: 100%;
+}
+
+ .gem-ti-cont {
+    max-width: 67rem;
+	margin-left: auto;
+	 margin-right: auto;
+	     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    align-items: flex-start;
+     margin-bottom: 4rem;
+     z-index:3;
+	 width: 100%;
+	padding: 1rem;
+  box-sizing: border-box;
+	 
+  }
+
+.gem-ti-icon-info {
+	max-width: 12rem;
+}
+
+.gem-ti-ico-p {
+	max-width: 25rem;
+}
+
+.gem-ti-scrollicon {
+	width: 12rem;
+}
+
+
+  .ico-folder {
+
+    flex-direction: row;
+    gap: 1.0625rem;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    position: relative;
+
+  }
+
+
+.gem-ti-vorja {
+	display: none;
+}
+
+.gem-ti-atu {
+	    display: flex;
+}
+
+   .gem-ti-btn-tog.active {
+          background: #00FF65;
+	   color: #000e52;
+	   
+        }
+
+.gem-ti-btn-links {
+    border-radius: 6.25rem 0rem 0rem 6.25rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+	border: none;
+	cursor: pointer;
+}
+
+.gem-ti-btn-rechts {
+    border-radius: 0rem 6.25rem 6.25rem 0rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+	border: none;
+	cursor: pointer;
+    
+}
+
+.h-4-top-space {
+    padding-top: 2rem;
+    width: 100%;
+     color: #000e52;
+  text-align: left;
+  font: 400 2.5rem/3.4375rem "Euclid Circular B", sans-serif;
+  position: relative;
+}
+
+.gem-ti-btn-tog {
+	         background: #E8EDF3;
+	   color: #000e52;
+}
+
+.gem-ti-txtbgcol {
+	background-color: var(--gemprim);
+  border-radius: 0.6rem;
+  border: solid 0.3rem var(--gemprim);
+}
+
+.gem-ti-btn {
+	  background: var(--gemprimbl);
+	color: #FFFFFF;
+  border-radius: 2.5rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+	border: none;
+	cursor: pointer;
+}
+
+.gem-carousel-slide-in > div img {
+     width: 45%;
+    margin-top: -6%;
+    margin-bottom: -9%;
+}
+
+@media (max-width: 800px){
+	
+	.ge-h5-box {
+  font-size: 2rem !important;
+  margin-bottom: 20rem;
+}
+	
+}
+
+@media (max-width: 933px){
+	
+	.gem-ti-rore {
+flex-direction: column-reverse !important;
+}
+	
+}
+
+.gem-ti-table td {
+	border: 1px solid #010e52;
+	padding: 4px;
+}
+
+.gem-ti-table {
+	  border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.gem-carousel-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  transition: transform 0.5s ease; /* Add a smooth transition */
+}
+/* Style for individual slides */
+.gem-carousel-slide {
+  margin-right: 3rem;
+  border-radius: 3.125rem;
+  background: #D1DBE7;
+  display: flex;
+}
+.gem-carousel-slide h4 {
+  max-width: 35rem;
+  flex-shrink: 0;
+  width: 100%;
+}
+.gem-gem-carousel-slide-in {
+  display: inline-flex;
+  padding: 4.5625rem 2.0625rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.625rem;
+  flex-wrap: wrap;
+}
+/* Navigation buttons */
+.gem-carousel-button {
+  position: absolute;
+  margin-top: -25%;
+  border-radius: 5.625rem;
+  background: #B3C1D9;
+  padding: 1.5rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+.gem-carousel-button.prev {
+  left: 0;
+}
+.gem-carousel-button.next {
+  right: 0;
+}
+.gem-carousel-slide-in {
+  display: flex;
+  padding: 4rem 2rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.gem-carousel-slide-bign-cont {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 3rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.gem-ti-gif {
+  max-width: 200px;
+}
+.ti-icon-stro {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 15.8808;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 500, 200;
+  animation: dash 7s ease-in-out alternate infinite;
+}
+@keyframes dash {
+  to {
+    stroke-dasharray: 500, 10;
+  }
+}
+#ti-icon {
+  animation: gemrot 20s ease 0s infinite normal forwards;
+}
+@keyframes gemrot {
+  30% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Style slide */
+
+
+.gem-ti-reg-cont,
+.gem-ti-reg-cont * {
+  box-sizing: border-box;
+	
+	
+}
+.gem-ti-reg-cont {
+  background: var(--gematik-light-blue, #f4f6f9);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 18.75rem;
+  height: 0.9375rem;
+  position: relative;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+	margin-top: 5rem;
+}
+.gem-ti-reg-slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+width: 2.2rem;
+  position: relative;
+transition: width 0.5s ease;
+}
+.gem-ti-reg-bar {
+  background: #00ff65;
+  border-radius: 0.5rem;
+  flex: 1;
+  height: 0.9375rem;
+  position: relative;
+}
+.gem-ti-reg-mark {
+  margin: 0 0 0 -2.375rem;
+  padding: 3.75rem 1.4375rem 3.75rem 1.4375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4375rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.gem-ti-reg-marktop {
+  background: #000e52;
+  border-radius: 0rem 1.375rem 1.375rem 1.375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  position: absolute;
+  left: 1.944375rem;
+  top: 3.889375rem;
+  transform-origin: 0 0;
+  transform: rotate(-135deg) scale(1, 1);
+  overflow: hidden;
+}
+.gem-ti-reg-numb {
+  color: #ffffff;
+  text-align: center;
+  font: var(--flie-text, 400 1rem/1.6875rem "Apercu Pro", sans-serif);
+  position: relative;
+  transform: rotate(135deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gem-ti-reg-botom {
+  background: #000e52;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  position: relative;
+}
+
+		
+		
+
+
+.gem-slid-btn-p {
+  color: #000e52;
+  text-align: center;
+  font: var(--flie-text, 400 1rem/1.6875rem "Apercu Pro", sans-serif);
+  position: relative;
+	line-height: 1;
+}
+
+.gem-slid-btn {
+  background: var(--gematik-light-blue, #f4f6f9);
+  border-radius: 1.5rem;
+  padding: 2rem 1.75rem 0.9375rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 7rem;
+  height: 7rem;
+  position: relative;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+
+.activ {
+	background-color: #D9E0EC;
+}
+.gem-slid-btn-icon {
+  flex-shrink: 0;
+  position: relative;
+   
+}
+
+
+
+.gem-ti-sub-cont {
+	  display: flex;
+  flex-direction: row;
+  gap: 1.1875rem;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gem-slid-btn svg {
+  min-height: 3.5rem;
+}
+
+.gem-ti-reg-bar p {
+	margin-top: 1rem;
+	
+}
+
+.gem-ti-sub-cont p {
+	margin-top: 1rem;
+	width: 18.75rem;
+
+	
+}
+
+
+#gem-slide1 {
+    
+background-image: url("../img/Element-1.svg");
+  background-position-x: 94%;
+  background-position-y: 72%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  background-size: 22rem;
+}
+
+#gem-slide2 {
+        
+background-image: url("../img/Element-2.svg");
+  background-position-x: 94%;
+  background-position-y: 72%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  background-size: 22rem;
+    
+}
+
+#gem-slide3 {
+    background-image: url("../img/Element-3.svg");
+  background-position-x: 95%;
+  background-position-y: 72%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  background-size: 22rem;
+}
+
+#gem-slide4 {
+      background-image: url("../img/Element-4.svg");
+  background-position-x: 95%;
+  background-position-y: 72%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  background-size: 22rem;
+}
+
+#gem-slide5 {
+        background-image: url("../img/Element-5.svg");
+  background-position-x: 95%;
+  background-position-y: 72%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  background-size: 22rem;
+}
+
+.gem-ti-sli-tb {
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center
+}
