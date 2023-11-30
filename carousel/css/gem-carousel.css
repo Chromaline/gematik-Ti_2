@@ -578,3 +578,217 @@ background-image: url("../img/Element-2.svg");
 	flex-wrap: wrap; 
 	justify-content: center
 }
+
+
+/*hanhab-gesund*/
+
+.frame-22, .frame-22 * {
+  box-sizing: border-box;
+}
+
+.frame-18 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-7 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 174px;
+  height: 174px;
+  position: relative;
+}
+._39-54-psychotherapeutische-praxen {
+  color: #000000;
+  text-align: left;
+  position: relative;
+}
+.ge-graf-icontext {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 0;
+  max-width: 300px;
+}
+.ge-graf-icon {
+  flex-shrink: 0;
+  position: relative;
+   
+  transition: width 0.5s ease, height 0.5s ease;
+}
+._25-53-krankenh-user {
+  color: #010E52;
+  text-align: left;
+  position: relative;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-72 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 146px;
+  height: 146px;
+  position: relative;
+}
+._42-81-apotheken {
+  color: #000000;
+  text-align: left;
+  position: relative;
+}
+.frame-21 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._42-81-arztpraxen {
+  color: #000000;
+  text-align: left;
+  position: relative;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-73 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 99px;
+  height: 99px;
+  position: relative;
+}
+._56-75-zahnarztpraxen {
+  color: #000;
+  text-align: left;
+  position: relative;
+}
+.ge-graf-text {
+  display: flex;
+  flex-direction: column;
+  gap: 50vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+.ge-h-5 {
+  color: #010E52;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+  font-size: 1.75rem;
+}
+.ge-p {
+  color: #000000;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+}
+.ge-graf-test-in {
+  border-radius: 3.125rem;
+  border: 0px solid #FFF;
+  background: #FFF;
+  padding: 1.5rem;
+  margin-right: 1rem;
+  margin-left: auto;
+  max-width: 600px;
+  margin-bottom: 3rem;
+}
+.ge-h4 {
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  width: 100vw;
+}
+.ge-font-weiss {
+  color: #010E52;
+}
+.ge-smal-h4 {
+  font-size: 2.5rem;
+}
+.ge-smal-proz {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.ge-smal-proz-box {
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 3.75rem;
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+}
+.ge-h4-box {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  width: 100vw;
+}
+.ge-proz-vj-box {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem;
+}
+.ge-h5-box {
+  color: #000E52;
+  text-align: left;
+  position: relative;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-family: apercu-light, sans-serif;
+  margin-bottom: 1rem;
+}
+.ge-graf-in-box {
+  border-radius: 3.125rem;
+  background: #E8EDF3;
+  padding: 1.5rem;
+  margin-right: 1rem;
+  margin-left: auto;
+  max-width: 600px;
+  margin-bottom: 3rem;
+}
+.ge-graf-in-box-gesund {
+  border-radius: 3.125rem;
+  padding: 1.5rem;
+  margin-right: 1rem;
+  margin-left: auto;
+  max-width: 700px;
+  margin-bottom: 3rem;
+  background-color: #E8EDF3;
+}
+.ge-graf-in-box-gesund h5 {
+  align-self: stretch;
+  font-style: normal;
+  font-weight: 400;
+  font-family: apercu-light, sans-serif;
+}
