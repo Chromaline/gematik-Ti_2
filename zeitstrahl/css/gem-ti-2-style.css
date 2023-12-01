@@ -1,163 +1,163 @@
 @charset "UTF-8";
 /* CSS Document */ :root {
-  --gem-green: #00FF64;
-  --gem-blue: #010e52;
-  --gem-turquoise: #4AFFFF;
-  --gem-b3-10: #F4F6F9;
-  --gem-b1-80: #4E76A9;
-  --gem-b1-40: #A7BBD4;
+    --gem-green: #00FF64;
+    --gem-blue: #010e52;
+    --gem-turquoise: #4AFFFF;
+    --gem-b3-10: #F4F6F9;
+    --gem-b1-80: #4E76A9;
+    --gem-b1-40: #A7BBD4;
 }
 body {
-  background-color: #E8EDF3;
+    background-color: #E8EDF3;
 }
 #gemtimecontAll {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  padding: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 0px;
 }
 #gemtimecont1, #gemtimecont2, #gemtimecont3 {
-  width: 90vw;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  flex-wrap: wrap;
-  background-color: var(--gem-b3-10);
-  border-radius: 32px;
-  padding-bottom: 48px;
+    width: 90vw;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: var(--gem-b3-10);
+    border-radius: 32px;
+    padding-bottom: 48px;
 }
 .gem-timeline-card-cont {
-  left: 32px;
-  position: relative;
-  display: flex;
+    left: 32px;
+    position: relative;
+    display: flex;
 }
 .gemcard {
-  width: 244px;
-  margin-top: 32px;
+    width: 244px;
+    margin-top: 32px;
 }
 .gemtext {
-  padding: 16px 32px;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  gap: 24px;
+    padding: 16px 32px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
 }
 .gemtext > small {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  line-height: 1.3;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 1.3;
 }
 .gemcard svg {
-  height: 188px;
-  width: auto;
-  margin-top: 16px;
+    height: 188px;
+    width: auto;
+    margin-top: 16px;
 }
 .gembut {
-  z-index: 20;
-  position: absolute;
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
-  height: 100%;
-  padding: 0px 16px;
-}
-.gembut-contain {
-  margin-top: 273px;
-  height: 100%;
+    z-index: 20;
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    padding: 0px 16px;
 }
 .gembut .button-bg {
-  background-color: var(--gem-blue);
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 999px;
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.40);
+    background-color: var(--gem-blue);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.40);
+}
+.gembut-contain {
+    margin-top: 273px;
+    height: 100%;
 }
 .gembut img {
-  transform: matrix(1, 0, 0, 1, 1.5, 0);
+    transform: matrix(1, 0, 0, 1, 1.5, 0);
 }
 .gem-timeline-gradient-l {
-  background: white;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
-  width: 80px;
-  left: 0;
-  position: absolute;
-  height: 100%;
-  z-index: 10;
+    background: white;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+    width: 80px;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    z-index: 10;
 }
 .gem-timeline-gradient-r {
-  background: white;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);
-  right: 0;
-  width: 80px;
-  position: absolute;
-  height: 100%;
-  z-index: 10;
+    background: white;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);
+    right: 0;
+    width: 80px;
+    position: absolute;
+    height: 100%;
+    z-index: 10;
 }
 .gembild {
-  justify-content: center;
-  width: 100%;
-  display: flex;
-  height: 160px;
-  align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    height: 160px;
+    align-items: center;
 }
 .gembild img {
-  height: 60%;
+    height: 60%;
 }
 .gem-timeline-line {
-  background-color: var(--gem-b1-40);
-  height: 4px;
-  bottom: -36px;
-  position: relative;
+    background-color: var(--gem-b1-40);
+    height: 4px;
+    bottom: -36px;
+    position: relative;
 }
 .marg-left-50 {
-  margin-left: 50%;
+    margin-left: 50%;
 }
 .marg-right-50 {
-  margin-right: 50%;
+    margin-right: 50%;
 }
 .gem-timeline-date {
-  background-color: var(--gem-b1-80);
-  text-align: center;
-  padding: 6px 16px;
-  width: fit-content;
-  border-radius: 999px;
-  z-index: 2;
+    background-color: var(--gem-b1-80);
+    text-align: center;
+    padding: 6px 16px;
+    width: fit-content;
+    border-radius: 999px;
+    z-index: 2;
 }
 .gem-timeline-date > h4 {
-  color: white;
-  margin: 0px;
-  font-size: 18px;
-  letter-spacing: 0.5;
-  font-family: euclid-regular, sans-serif;
+    color: white;
+    margin: 0px;
+    font-size: 18px;
+    letter-spacing: 0.5;
+    font-family: euclid-regular, sans-serif;
 }
 .gemstb {
-  padding: 10px 12px;
-  background-color: #000e52;
-  color: white;
-  border-radius: 12px;
-  display: inline-block;
-  margin-top: 0;
+    padding: 10px 12px;
+    background-color: #000e52;
+    color: white;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 0;
 }
 .gem-timeline-title {
-  justify-content: center;
-  display: flex;
-  width: 100%;
-  height: 32px;
-  padding: 16px 12px;
-  background: white;
-  flex-wrap: wrap;
-  align-content: end;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 32px;
+    padding: 16px 12px;
+    background: white;
+    flex-wrap: wrap;
+    align-content: end;
 }
 .gem-timeline-title > h2 {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 #gemTimeCardsCont1, #gemTimeCardsCont2, #gemTimeCardsCont3 {
-  position: relative;
-  transition: left .8s ease;
+    position: relative;
+    transition: left .8s ease;
 }
