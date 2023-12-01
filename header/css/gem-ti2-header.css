@@ -6,82 +6,43 @@
     --gem-b1-80: #4E76A9;
     --gem-b1-40: #A7BBD4;
 }
-.gem-carousel-outer-wrapper {
-    overflow: hidden;
+.gem-ti2-header-wrapper {
+    background-color: var(--gem-b3-10);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 48px;
-    background-color: var(--gem-b3-10);
+    width: 100%;
+    height: 76vh;
+    justify-content: flex-end;
+    padding-bottom: 4rem;
 }
-.gem-carousel-title {
+.gem-ti2-header-text {
+    color: var(--gem-blue);
+    padding: 0px 16%;
+    display: flex;
+    flex-direction: column;
+}
+.gem-ti2-header-text h1 {
+    font-size: 9vh;
+    margin-bottom: 1rem;
+}
+.gem-ti2-header-text h2 {
+    font-size: 5vh;
+}
+.gem-ti2-header-slider-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-direction: column;
+}
+.gem-ti2-header-slider {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    border-radius: 999px;
+}
+.gem-ti2-header-slider-user {
+    padding: 1rem 1.8rem;
+}
+.gem-ti2-header-slider-title {
     text-align: center;
-    font-size: 32px;
-    line-height: 1.1;
-    margin-bottom: 0px;
-}
-.gem-carousel-container {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    margin: 48px 0px;
-    transition: transform 0.5s ease;
-}
-.gem-carousel-slide {
-    margin-right: 3rem;
-    border-radius: 3.125rem;
-    background: #D1DBE7;
-    display: flex;
-}
-.gem-carousel-slide-in {
-    display: flex;
-    padding: 32px 48px;
-    align-items: center;
-    gap: 3rem;
-}
-.gem-ti-sli-tb {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 40%;
-}
-.gem-carousel-text {
-    color: #000E52;
-    text-align: left;
-    font-weight: 400;
-    width: 60%;
-}
-.gem-carousel-text h4 {
-    font-size: 3.6vw;
-    line-height: 1.1;
-}
-.gem-carousel-text p {
-    font-size: 2.2vw;
-    line-height: 1.3;
-}
-.gem-carousel-button {
-    position: absolute;
-    padding: 1.5rem;
-    border: none;
-    cursor: pointer;
-    margin-left: 0.3rem;   
-    margin-right: 0.3rem;
-    background-color: var(--gem-blue);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.40);
-}
-.gem-carousel-button.prev {
-    left: 0;
-}
-.gem-carousel-button.next {
-    right: 0;
-}
-.gem-carousel-button > img {
-    transform: matrix(1, 0, 0, 1, 1.5, 0);
-    max-width: none;
 }
