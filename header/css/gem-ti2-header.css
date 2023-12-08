@@ -31,15 +31,14 @@
     flex-direction: column;
 }
 .gem-ti2-header-text h1 {
-    font-size: clamp(56px, 9vw, 90px);   
+    font-size: clamp(56px, 9vw, 90px);
     margin-bottom: 0;
     line-height: 1.2;
 }
 .gem-ti2-header-text h2 {
-    font-size: clamp(24px, 5vw, 50px);    
+    font-size: clamp(24px, 5vw, 50px);
     margin-bottom: 0;
     line-height: 1.2;
-
 }
 .gem-ti2-header-slider-wrapper {
     display: flex;
@@ -47,35 +46,48 @@
     justify-content: center;
     flex-direction: row;
     flex-direction: column;
+    padding: clamp(1rem, 16%, 100px);
 }
 .gem-ti2-header-slider {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-border: 2px solid rgba(255, 255, 255, 0.80);
-background: rgba(255, 255, 255, 0.80);
-    border-radius: 999px;
+    border: 3px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 32px;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
-        margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 .gem-ti2-header-slider > ul {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0px;
     font-weight: 700;
-    
+    font-family: 'apercu-regular', sans-serif;
 }
 .gem-ti2-header-slider-user {
-    padding: 2vh 3vw;
+    padding: 1.3vh clamp(2rem, 1.3vh, 4rem);
+    cursor: pointer;
 }
 .gem-ti2-header-slider-title {
     text-align: center;
 }
 .z-10 {
     z-index: 10;
+}
+.gem-ti2-header-slider-user.active {
+    color: white;
+    background-color: var(--gem-blue);
+    border-radius: 32px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.40);
+    transform: scale(1.1); /* Example: You can adjust the scaling */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
