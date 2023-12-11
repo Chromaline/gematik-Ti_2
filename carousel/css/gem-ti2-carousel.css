@@ -39,6 +39,7 @@
     padding: clamp(1rem, 1.6rem, 4rem);
     align-items: center;
     gap: 3rem;
+    justify-content: center;
 }
 .gem-ti-sli-tb {
     display: flex;
