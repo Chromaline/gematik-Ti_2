@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 120">
+  <g id="Hintergrund">
+    <rect x="0" width="244" height="120" fill="#f4f6f9" stroke-width="0"/>
+  </g>
+  <g id="Design">
+    <g>
+      <g>
+        <rect x="97.75" y="12.27" width="54.01" height="95.38" transform="translate(249.51 119.92) rotate(180)" fill="#4e76a9" stroke-width="0"/>
+        <rect x="101.6" y="12.27" width="46.3" height="95.38" transform="translate(249.51 119.92) rotate(180)" fill="#4e76a9" stroke-width="0"/>
+        <g>
+          <rect x="101.6" y="15.46" width="46.3" height="15.25" transform="translate(249.51 46.16) rotate(180)" fill="#4e76a9" stroke-width="0"/>
+          <rect x="103.14" y="16.72" width="4.44" height="12.71" transform="translate(210.73 46.16) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="109.29" y="16.72" width="4.44" height="12.71" transform="translate(223.01 46.16) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="115.43" y="16.72" width="4.44" height="12.71" transform="translate(235.29 46.16) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="121.57" y="16.72" width="4.44" height="12.71" transform="translate(247.58 46.16) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="16.72" width="13.7" height="1.52" transform="translate(275.55 34.97) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="24.99" width="13.7" height="4.45" transform="translate(275.55 54.43) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <g>
+            <circle cx="133.36" cy="20.73" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="136.31" cy="20.73" r="1.03" fill="#00ff64" stroke-width="0"/>
+            <circle cx="139.25" cy="20.73" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="142.19" cy="20.73" r="1.03" fill="#4affff" stroke-width="0"/>
+          </g>
+        </g>
+        <g>
+          <rect x="101.6" y="33.89" width="46.3" height="15.25" transform="translate(249.51 83.03) rotate(180)" fill="#4e76a9" stroke-width="0"/>
+          <rect x="103.14" y="35.16" width="4.44" height="12.71" transform="translate(210.73 83.03) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="109.29" y="35.16" width="4.44" height="12.71" transform="translate(223.01 83.03) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="115.43" y="35.16" width="4.44" height="12.71" transform="translate(235.29 83.03) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="121.57" y="35.16" width="4.44" height="12.71" transform="translate(247.58 83.03) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="35.16" width="13.7" height="1.52" transform="translate(275.55 71.84) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="43.43" width="13.7" height="4.45" transform="translate(275.55 91.3) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <g>
+            <circle cx="133.36" cy="39.16" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="136.31" cy="39.16" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="139.25" cy="39.16" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="142.19" cy="39.16" r="1.03" fill="#00ff64" stroke-width="0"/>
+          </g>
+        </g>
+        <g>
+          <rect x="101.6" y="52.36" width="46.3" height="15.25" transform="translate(249.51 119.97) rotate(180)" fill="#4e76a9" stroke-width="0"/>
+          <rect x="103.14" y="53.63" width="4.44" height="12.71" transform="translate(210.73 119.97) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="109.29" y="53.63" width="4.44" height="12.71" transform="translate(223.01 119.97) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="115.43" y="53.63" width="4.44" height="12.71" transform="translate(235.29 119.97) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="121.57" y="53.63" width="4.44" height="12.71" transform="translate(247.58 119.97) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="53.63" width="13.7" height="1.52" transform="translate(275.55 108.78) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="61.9" width="13.7" height="4.45" transform="translate(275.55 128.24) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <g>
+            <circle cx="133.36" cy="57.63" r="1.03" fill="#00ff64" stroke-width="0"/>
+            <circle cx="136.31" cy="57.63" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="139.25" cy="57.63" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="142.19" cy="57.63" r="1.03" fill="#4affff" stroke-width="0"/>
+          </g>
+        </g>
+        <g>
+          <rect x="101.6" y="70.79" width="46.3" height="15.25" transform="translate(249.51 156.83) rotate(180)" fill="#4e76a9" stroke-width="0"/>
+          <rect x="103.14" y="72.06" width="4.44" height="12.71" transform="translate(210.73 156.83) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="109.29" y="72.06" width="4.44" height="12.71" transform="translate(223.01 156.83) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="115.43" y="72.06" width="4.44" height="12.71" transform="translate(235.29 156.83) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="121.57" y="72.06" width="4.44" height="12.71" transform="translate(247.58 156.83) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="72.06" width="13.7" height="1.52" transform="translate(275.55 145.64) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="80.33" width="13.7" height="4.45" transform="translate(275.55 165.1) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <g>
+            <circle cx="133.36" cy="76.06" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="136.31" cy="76.06" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="139.25" cy="76.06" r="1.03" fill="#00ff64" stroke-width="0"/>
+            <circle cx="142.19" cy="76.06" r="1.03" fill="#4affff" stroke-width="0"/>
+          </g>
+        </g>
+        <g>
+          <rect x="101.6" y="89.22" width="46.3" height="15.25" transform="translate(249.51 193.7) rotate(180)" fill="#4e76a9" stroke-width="0"/>
+          <rect x="103.14" y="90.49" width="4.44" height="12.71" transform="translate(210.73 193.7) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="109.29" y="90.49" width="4.44" height="12.71" transform="translate(223.01 193.7) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="115.43" y="90.49" width="4.44" height="12.71" transform="translate(235.29 193.7) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="121.57" y="90.49" width="4.44" height="12.71" transform="translate(247.58 193.7) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="90.49" width="13.7" height="1.52" transform="translate(275.55 182.51) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <rect x="130.93" y="98.76" width="13.7" height="4.45" transform="translate(275.55 201.97) rotate(180)" fill="#000e52" stroke-width="0"/>
+          <g>
+            <circle cx="133.36" cy="94.5" r="1.03" fill="#00ff64" stroke-width="0"/>
+            <circle cx="136.31" cy="94.5" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="139.25" cy="94.5" r="1.03" fill="#4affff" stroke-width="0"/>
+            <circle cx="142.19" cy="94.5" r="1.03" fill="#4affff" stroke-width="0"/>
+          </g>
+        </g>
+      </g>
+      <rect x="99.76" y="106.79" width="10.29" height="3.32" fill="#4e76a9" stroke-width="0"/>
+      <rect x="139.31" y="106.79" width="10.29" height="3.32" fill="#4e76a9" stroke-width="0"/>
+    </g>
+    <path d="m119.72,42.16c-.09,0-.17,0-.26,0-.88-3.32-3.9-5.77-7.5-5.77-4,0-7.3,3.03-7.71,6.93-.23-.04-.47-.06-.71-.06-2.39,0-4.32,1.93-4.32,4.32s1.93,4.32,4.32,4.32h16.18c2.69,0,4.87-2.18,4.87-4.88s-2.18-4.87-4.87-4.87Z" fill="#e8edf3" stroke-width="0"/>
+    <path d="m110.62,70.12c-.15,0-.3,0-.45.01-1.54-5.81-6.82-10.09-13.12-10.09-7,0-12.77,5.31-13.49,12.12-.4-.07-.82-.1-1.24-.1-4.17,0-7.56,3.38-7.56,7.56s3.38,7.56,7.56,7.56h28.3c4.71,0,8.53-3.82,8.53-8.53s-3.82-8.53-8.53-8.53Z" fill="#e8edf3" stroke-width="0"/>
+  </g>
+</svg>

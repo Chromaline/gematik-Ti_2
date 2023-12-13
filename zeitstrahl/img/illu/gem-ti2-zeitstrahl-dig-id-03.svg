@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 120">
+  <g id="Hintergrund">
+    <rect width="244" height="120" fill="#f4f6f9" stroke-width="0"/>
+  </g>
+  <g id="Design">
+    <g>
+      <rect x="63.81" y="21.74" width="116.37" height="88.46" rx="7.91" ry="7.91" fill="#f8cdbf" stroke-width="0"/>
+      <g>
+        <circle cx="122" cy="21.74" r="16.31" fill="#000e52" stroke-width="0"/>
+        <path d="m119.7,29.9c-.5,0-.98-.2-1.33-.56l-6.1-6.18c-.73-.74-.72-1.92.02-2.65.74-.73,1.92-.72,2.65.02l4.67,4.72,9.38-11c.67-.79,1.86-.88,2.64-.21.79.67.88,1.86.21,2.64l-10.71,12.56c-.34.4-.83.64-1.36.66-.02,0-.05,0-.07,0Z" fill="#00ff64" stroke-width="0"/>
+      </g>
+      <g>
+        <rect x="77.83" y="47.02" width="88.34" height="22.09" rx="3.02" ry="3.02" fill="#fdf3ef" stroke-width="0"/>
+        <rect x="77.83" y="73.24" width="88.34" height="22.09" rx="3.02" ry="3.02" fill="#fdf3ef" stroke-width="0"/>
+        <rect x="84.97" y="55.55" width="65.66" height="5.03" rx="1.24" ry="1.24" fill="#f5b5a0" stroke-width="0"/>
+        <circle cx="87.48" cy="84.28" r="2.51" fill="#f5b5a0" stroke-width="0"/>
+        <circle cx="97.54" cy="84.28" r="2.51" fill="#f5b5a0" stroke-width="0"/>
+        <circle cx="107.59" cy="84.28" r="2.51" fill="#f5b5a0" stroke-width="0"/>
+        <circle cx="117.64" cy="84.28" r="2.51" fill="#f5b5a0" stroke-width="0"/>
+        <circle cx="127.7" cy="84.28" r="2.51" fill="#f5b5a0" stroke-width="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

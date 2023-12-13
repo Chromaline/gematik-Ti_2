@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 120">
+  <g id="Hintergrund">
+    <rect width="244" height="120" fill="#f4f6f9" stroke-width="0"/>
+  </g>
+  <g id="Design">
+    <g>
+      <g>
+        <rect x="109.22" y="63.19" width="5.2" height="20.8" transform="translate(84.79 -57.52) rotate(45)" fill="#000e52" stroke-width="0"/>
+        <circle cx="138.38" cy="47.9" r="29.49" fill="#bbc9dc" stroke-width="0"/>
+        <circle cx="138.38" cy="47.9" r="23.62" fill="#e8edf3" stroke-width="0"/>
+      </g>
+      <g>
+        <path d="m110.21,71.13c-1.67-1.67-4.37-1.67-6.04,0l-32.51,32.51c-1.67,1.67-1.67,4.37,0,6.04l3.85,3.85,38.55-38.55-3.85-3.85Z" fill="#42659f" stroke-width="0"/>
+        <path d="m114.06,74.98l-38.55,38.55.16.16c1.67,1.67,4.37,1.67,6.04,0l32.51-32.51c1.67-1.67,1.67-4.37,0-6.04l-.16-.16Z" fill="#225494" stroke-width="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

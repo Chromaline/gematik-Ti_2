@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 120">
+  <g id="Hintergrund">
+    <rect x="0" width="244" height="120" fill="#f4f6f9" stroke-width="0"/>
+  </g>
+  <g id="Design">
+    <g>
+      <rect x="61.67" y="18.2" width="128.68" height="80.3" rx="4.38" ry="4.38" fill="#f8cdbf" stroke-width="0"/>
+      <g>
+        <rect x="71.05" y="28.89" width="74.69" height="7.39" fill="#ee8360" stroke-width="0"/>
+        <g>
+          <rect x="71.17" y="47.87" width="51.65" height="4.54" fill="#fdf3ef" stroke-width="0"/>
+          <rect x="71.17" y="54.5" width="51.65" height="4.54" fill="#fdf3ef" stroke-width="0"/>
+          <rect x="71.17" y="61.14" width="51.65" height="4.54" fill="#fdf3ef" stroke-width="0"/>
+          <rect x="71.17" y="67.78" width="34.17" height="4.54" fill="#fdf3ef" stroke-width="0"/>
+        </g>
+        <g>
+          <circle cx="157.32" cy="65.68" r="18.24" fill="#f19c80" stroke-width="0"/>
+          <path d="m172.77,75.37c-3.23,5.13-8.94,8.55-15.45,8.55-10.07,0-18.24-8.17-18.24-18.24s8.17-18.24,18.24-18.24v18.24s15.45,9.69,15.45,9.69Z" fill="#ee8360" stroke-width="0"/>
+        </g>
+      </g>
+      <polygon points="121.25 93.66 106.25 108.66 114.56 116.97 129.56 101.98 137.11 109.53 139.38 83.85 113.69 86.11 121.25 93.66" fill="#000e52" stroke-width="0"/>
+    </g>
+  </g>
+</svg>
