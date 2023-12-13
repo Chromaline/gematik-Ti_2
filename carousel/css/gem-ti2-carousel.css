@@ -5,6 +5,7 @@
     --gem-b3-10: #F4F6F9;
     --gem-b1-80: #4E76A9;
     --gem-b1-40: #A7BBD4;
+    --gem-b3-40: #D1DBE7;
 }
 .gem-carousel-outer-wrapper {
     overflow: hidden;
@@ -31,7 +32,7 @@
 .gem-carousel-slide {
     margin-right: 3rem;
     border-radius: 3.125rem;
-    background: #D1DBE7;
+    background: var(--gem-b3-40);
     display: flex;
 }
 .gem-carousel-slide-in {
@@ -48,7 +49,7 @@
     width: 40%;
 }
 .gem-carousel-text {
-    color: #000E52;
+    color: var(--gem-blue);
     text-align: left;
     font-weight: 400;
     width: clamp(90%, 60%, 50%);

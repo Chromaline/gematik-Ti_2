@@ -4,11 +4,14 @@
     --gem-blue: #010e52;
     --gem-turquoise: #4AFFFF;
     --gem-b3-10: #F4F6F9;
+    --gem-b3-20: #E8EDF3;
     --gem-b1-80: #4E76A9;
     --gem-b1-40: #A7BBD4;
+    
 }
 body {
-    background-color: #E8EDF3;
+    background-color: var(--gem-b3-20);
+    margin: 0px;
 }
 #gemtimecontAll {
     display: flex;
@@ -30,7 +33,7 @@ body {
     padding-bottom: 48px;
 }
 .gem-timeline-card-cont {
-    left: 32px;
+    left: 46px;
     position: relative;
     display: flex;
 }
@@ -159,5 +162,5 @@ body {
 }
 #gemTimeCardsCont1, #gemTimeCardsCont2, #gemTimeCardsCont3 {
     position: relative;
-    transition: left .8s ease;
+    transition: left .5s ease;
 }
