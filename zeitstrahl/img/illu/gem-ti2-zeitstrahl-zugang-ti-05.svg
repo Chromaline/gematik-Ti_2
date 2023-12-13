@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 120">
+  <g id="Hintergrund">
+    <rect width="244" height="120" fill="#f4f6f9" stroke-width="0"/>
+  </g>
+  <g id="Design">
+    <g>
+      <path d="m104.7,47.29h-36.29c-1.89,0-3.42,1.53-3.42,3.42v24.72c0,1.89,1.53,3.42,3.42,3.42h12.6l4.54,6.11c.5.67,1.51.67,2.01,0l4.54-6.11h12.6c1.89,0,3.42-1.53,3.42-3.42v-24.72c0-1.89-1.53-3.42-3.42-3.42Z" fill="#66c2b0" stroke-width="0"/>
+      <g>
+        <rect x="84.7" y="54.95" width="3.71" height="17.06" rx="1.86" ry="1.86" fill="#009a7c" stroke-width="0"/>
+        <rect x="84.7" y="54.95" width="3.71" height="17.06" rx="1.86" ry="1.86" transform="translate(23.08 150.03) rotate(-90)" fill="#009a7c" stroke-width="0"/>
+      </g>
+    </g>
+    <g>
+      <path d="m144.55,66.59h-41.43c-2.16,0-3.91,1.75-3.91,3.91v28.22c0,2.16,1.75,3.91,3.91,3.91h14.38l5.18,6.97c.57.77,1.72.77,2.29,0l5.18-6.97h14.38c2.16,0,3.91-1.75,3.91-3.91v-28.22c0-2.16-1.75-3.91-3.91-3.91Z" fill="#99d7cb" stroke-width="0"/>
+      <g>
+        <rect x="121.72" y="75.33" width="4.24" height="19.47" rx="2.12" ry="2.12" fill="#e5f5f2" stroke-width="0"/>
+        <rect x="121.72" y="75.33" width="4.24" height="19.47" rx="2.12" ry="2.12" transform="translate(38.77 208.9) rotate(-90)" fill="#e5f5f2" stroke-width="0"/>
+      </g>
+    </g>
+    <g>
+      <path d="m187.52,35.44h-48.56c-2.53,0-4.58,2.05-4.58,4.58v33.08c0,2.53,2.05,4.58,4.58,4.58h16.86l6.08,8.17c.67.9,2.01.9,2.68,0l6.08-8.17h16.86c2.53,0,4.58-2.05,4.58-4.58v-33.08c0-2.53-2.05-4.58-4.58-4.58Z" fill="#33ae96" stroke-width="0"/>
+      <g>
+        <rect x="160.76" y="46.25" width="4.96" height="22.83" rx="2.48" ry="2.48" fill="#000e52" stroke-width="0"/>
+        <rect x="160.76" y="46.25" width="4.96" height="22.83" rx="2.48" ry="2.48" transform="translate(105.59 220.9) rotate(-90)" fill="#000e52" stroke-width="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
