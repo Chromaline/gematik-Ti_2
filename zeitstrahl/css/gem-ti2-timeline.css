@@ -162,5 +162,5 @@ body {
 }
 #gemTimeCardsCont1, #gemTimeCardsCont2, #gemTimeCardsCont3 {
     position: relative;
-    transition: left .4s ease;
+    transition: left .3s ease;
 }
