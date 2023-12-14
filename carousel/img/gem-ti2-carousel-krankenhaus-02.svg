@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g id="Hintergrund">
+    <rect x="0" width="500" height="500" fill="#d1dbe7" stroke-width="0"/>
+  </g>
+  <g id="Design">
+    <g>
+      <circle cx="236.81" cy="180.91" r="22.38" fill="#000e52" stroke-width="0"/>
+      <polyline points="226.21 340.64 226.21 276.6 130.91 276.6 161.13 219.78 236.81 178.26" fill="none" stroke="#000e52" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7.5"/>
+      <polyline points="110.64 117.8 216.47 93.26 236.81 178.26 364.14 276.6" fill="none" stroke="#000e52" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7.5"/>
+      <circle cx="216.47" cy="93.26" r="13.4" fill="#000e52" stroke-width="0"/>
+      <circle cx="160.29" cy="219.78" r="13.4" fill="#000e52" stroke-width="0"/>
+      <circle cx="292.75" cy="225.05" r="13.4" fill="#000e52" stroke-width="0"/>
+      <circle cx="364.68" cy="276.05" r="20.06" fill="#000e52" stroke-width="0"/>
+      <circle cx="111.42" cy="116.35" r="35.39" fill="#000e52" stroke-width="0"/>
+      <circle cx="392.05" cy="136.5" r="27.91" fill="#000e52" stroke-width="0"/>
+      <circle cx="226.21" cy="276.6" r="13.4" fill="#000e52" stroke-width="0"/>
+      <circle cx="130.91" cy="276.05" r="23.09" fill="#000e52" stroke-width="0"/>
+      <polyline points="216.47 93.26 331.22 68.04 401.41 135.27 292.71 225.05 226.21 276.6 226.21 276.6" fill="none" stroke="#000e52" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7.5"/>
+      <circle cx="331.22" cy="67.36" r="13.4" fill="#000e52" stroke-width="0"/>
+    </g>
+    <g>
+      <path d="M320.04,355.21h-160.74c-40.4,0-73.15,32.75-73.15,73.15h162.57c.78-40.53,71.32-73.15,71.32-73.15Z" fill="#a4b7d0" stroke-width="0"/>
+      <path d="M257.11,404.2c-5.92-2.09-13.09-3.62-23.36-3.62-16.87,0-25.44,4.12-33.72,8.1-8.13,3.9-16.53,7.94-33.05,7.94s-24.94-4.04-33.08-7.94c-8.29-3.98-16.86-8.09-33.74-8.09-3.2,0-6.02.19-8.68.45-.21.53-.39,1.08-.59,1.62,2.81-.31,5.83-.52,9.27-.52,16.52,0,24.94,4.04,33.07,7.94,8.3,3.98,16.87,8.1,33.75,8.1s25.44-4.12,33.73-8.1c8.13-3.9,16.53-7.94,33.05-7.94,9.82,0,16.75,1.44,22.48,3.42.28-.45.57-.91.87-1.36Z" fill="#8da5c4" stroke-width="0"/>
+      <path d="M322.87,361.35h64.61v-6.14h-66.55c-40.4,0-73.15,32.75-73.15,73.15h6.76c.75-37.13,31.02-67.01,68.33-67.01Z" fill="#225494" stroke-width="0"/>
+      <path d="M254.54,428.36h132.94v-67.01h-64.61c-37.3,0-67.58,29.88-68.33,67.01Z" fill="#6884b2" stroke-width="0"/>
+      <g>
+        <circle cx="150.67" cy="383.15" r="2.43" fill="#fff" stroke-width="0"/>
+        <path d="M163.61,366.12c-5.69,3.51-10.84,7.79-15.37,12.67h6.32c4.52-4.88,9.68-9.16,15.37-12.67h-6.32Z" fill="#fff" stroke-width="0"/>
+      </g>
+      <g>
+        <circle cx="161.86" cy="383.15" r="2.43" fill="#fff" stroke-width="0"/>
+        <path d="M174.8,366.12c-5.69,3.51-10.84,7.79-15.37,12.67h6.32c4.52-4.88,9.68-9.16,15.37-12.67h-6.32Z" fill="#fff" stroke-width="0"/>
+      </g>
+      <g>
+        <circle cx="173.05" cy="383.15" r="2.43" fill="#fff" stroke-width="0"/>
+        <path d="M185.98,366.12c-5.69,3.51-10.84,7.79-15.37,12.67h6.32c4.52-4.88,9.68-9.16,15.37-12.67h-6.32Z" fill="#fff" stroke-width="0"/>
+      </g>
+      <g>
+        <circle cx="184.24" cy="383.15" r="2.43" fill="#fff" stroke-width="0"/>
+        <path d="M197.17,366.12c-5.69,3.51-10.84,7.79-15.37,12.67h6.32c4.52-4.88,9.68-9.16,15.37-12.67h-6.32Z" fill="#fff" stroke-width="0"/>
+      </g>
+      <g>
+        <circle cx="195.42" cy="383.15" r="2.43" fill="#fff" stroke-width="0"/>
+        <path d="M208.36,366.12c-5.69,3.51-10.84,7.79-15.37,12.67h6.32c4.52-4.88,9.68-9.16,15.37-12.67h-6.32Z" fill="#fff" stroke-width="0"/>
+      </g>
+      <g>
+        <circle cx="206.61" cy="383.15" r="2.43" fill="#fff" stroke-width="0"/>
+        <path d="M219.55,366.12c-5.69,3.51-10.84,7.79-15.37,12.67h6.32c4.52-4.88,9.68-9.16,15.37-12.67h-6.32Z" fill="#fff" stroke-width="0"/>
+      </g>
+      <g>
+        <circle cx="217.8" cy="383.15" r="2.43" fill="#fff" stroke-width="0"/>
+        <path d="M230.73,366.12c-5.69,3.51-10.84,7.79-15.37,12.67h6.32c4.52-4.88,9.68-9.16,15.37-12.67h-6.32Z" fill="#fff" stroke-width="0"/>
+      </g>
+    </g>
+    <line x1="111.21" y1="115.9" x2="160.29" y2="219.78" fill="none" stroke="#000e52" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7.5"/>
+    <line x1="366.62" y1="276.6" x2="226.21" y2="276.6" fill="none" stroke="#000e52" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7.5"/>
+  </g>
+</svg>
