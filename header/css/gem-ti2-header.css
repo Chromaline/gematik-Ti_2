@@ -15,14 +15,14 @@
     justify-content: flex-end;
     gap: 48px;
 }
-.gem-ti2-header-motiv {
+.lottie-container {
     position: absolute;
     top: 0;
     left: 0;
     height: 65vh;
     object-fit: cover;
     align-content: center;
-    width: 100vw;
+    width: 100%;
 }
 .gem-ti2-header-text {
     color: var(--gem-blue);

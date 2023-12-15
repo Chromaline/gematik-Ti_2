@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script> 
 <title>TI 2.0 Header</title>
 <link href="css/gem-ti2-header.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="https://www.gematik.de/typo3conf/ext/as_template_gematik/Resources/Public/StyleSheets/styles.min.css?1679066467" media="all">
@@ -10,7 +11,7 @@
 
 <body id="gem-ti-html" style="margin: 0;">
 </body>
-<section class="gem-ti2-header-wrapper"><img class="gem-ti2-header-motiv" src="img/ti2-header-image.svg">
+<section class="gem-ti2-header-wrapper"><div class="lottie-container" id="gem-ti2-header-animation"></div>
     <div class="gem-ti2-header-text z-10">
         <h1>TI 2.0</h1>
         <h2>Unser Weg in die Zukunft</h2>
@@ -30,5 +31,31 @@
         </nav>
     </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
 <script src="js/gem-ti2-header-slider.js"></script>
+    <script>
+  // Wait for the DOM to be ready
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get the Lottie animation container element
+    const animationContainer = document.getElementById("gem-ti2-header-animation");
+
+    // Load the animation from your JSON file
+    const animData = {
+      container: animationContainer,
+      renderer: "svg",
+      loop: true, // Set loop to true to make it loop
+      autoplay: true,
+      path: "json/gem-ti2-header-animation.json" // Replace this with your actual path
+    };
+
+    // Load the animation using Lottie
+    const anim = lottie.loadAnimation(animData);
+
+    // To control the animation, you can use:
+    // anim.play(), anim.pause(), anim.stop(), etc.
+    // For example:
+    // anim.play(); // Start the animation
+    // anim.pause(); // Pause the animation
+  });
+</script>
 </html>
