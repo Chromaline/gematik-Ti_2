@@ -15,6 +15,15 @@
     justify-content: flex-end;
     gap: 48px;
 }
+.lottie-wrapper {
+    height: 65vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
 .lottie-container {
     position: absolute;
     top: 0;
