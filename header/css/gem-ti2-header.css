@@ -14,24 +14,20 @@
     height: 65vh;
     justify-content: flex-end;
     gap: 48px;
-}
-.lottie-wrapper {
-    height: 65vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     overflow: hidden;
 }
-
-.lottie-container {
+.lottie-wrapper {
     position: absolute;
     top: 0;
     left: 0;
-    height: 65vh;
+    width: 100vw;
+    height: 100%;
+}
+.lottie-wrapper svg {
+    width: 100vw !important;
+    height: auto!important;
+    transform: unset !important;
     object-fit: cover;
-    align-content: center;
-    width: 100%;
 }
 .gem-ti2-header-text {
     color: var(--gem-blue);
