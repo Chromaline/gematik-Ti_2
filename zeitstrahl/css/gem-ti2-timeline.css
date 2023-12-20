@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     gap: 32px;
     padding: 32px 0px;
+    background-color: #eff0f3;
 }
 #gemtimecont1, #gemtimecont2, #gemtimecont3 {
     width: 90vw;
