@@ -48,6 +48,10 @@
     justify-content: center;
     width: 40%;
 }
+.gem-ti-sli-tb img {
+    width: 100%;
+    height: 100%; 
+}
 .gem-carousel-text {
     color: var(--gem-blue);
     text-align: left;
